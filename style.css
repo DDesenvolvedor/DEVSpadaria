@@ -67,3 +67,46 @@
     opacity: 80%;
     cursor: pointer;
 } 
+
+
+#baner-da-padaria{
+    background-image: url(IMG/padaria.webp);
+ width: 100%;
+ height: 80vh;
+ background-repeat: repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+
+.img-div{
+    background-image: url(IMG/img-div.jpg);
+    background-position: center;
+    background-size: auto;
+    padding: 25px;
+}
+#personagens{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#comentarios > h2 {
+    text-align: center;
+    margin: 20px;
+    font-weight: 550;
+    font-size: 30px;
+   
+}
+
+#comentarios > .line1 {
+text-align: center;
+width: 30%;
+margin: 0 auto;
+}
+
+#personagens > li > h2{
+   
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
