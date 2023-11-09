@@ -83,11 +83,11 @@
     background-image: url(IMG/img-div.jpg);
     background-position: center;
     background-size: auto;
-    padding: 25px;
+    padding: 27px;
 }
 
 #comentarios {
-    background-color: rgb(224, 211, 194);
+    background-color: rgb(255, 255, 255);
     
 }
 
@@ -107,7 +107,7 @@
 
 #comentarios > h2 {
     text-align: center;
-
+margin: 20px;
     font-weight: 550;
     font-size: 30px;
    
@@ -140,5 +140,45 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .personagens  > p {
     font-size: 22px;
     font-weight: 400;
-    margin-top: 2%;
+  margin: 20px;
+
 }
+
+#produtos{
+    background-color: rgb(255, 255, 255);
+}
+
+#produtos > h2 {
+text-align: center;
+font-size: 30px;
+  font-weight: 400;
+  margin: 30px;
+}
+
+
+.sessao-produtos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sessao-produtos > div > a > img {
+width: 17vw;
+height: 30vh;
+border-radius: 30px;
+margin: 19px;
+
+}
+
+.sessao-produtos > div > a {
+    text-decoration: none;
+}
+
+
+.sessao-produtos > div > a > .titulos-dos-produtos{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+   color: black;
+text-decoration: none;
+}
+
