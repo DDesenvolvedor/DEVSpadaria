@@ -1,0 +1,131 @@
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 33px;
+    max-height: 140px;
+    height: 15vh;
+    justify-content: space-evenly;
+    background-color: rgb(100, 75, 38);
+}
+
+.menu>img {
+    margin-left: 3%;
+    width: 13vw;
+    height: 17vh;
+   
+}
+
+.menu>h1 {
+    color: rgba(255, 255, 255, 0.938);
+    margin-top: 6%;
+    margin-right: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.menu-produtos {
+    display: flex;
+    list-style: none;
+    margin-left: 2%;
+   
+}
+
+.menu-produtos > ul > li > a  {
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(214, 204, 204);
+    font-size: 21px;
+    font-weight: 380;
+    margin-right: 1rem;
+
+}
+
+.menu-produtos>ul>li>a:hover {
+    opacity: 60%;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#produtos {
+    background-color: rgb(229, 213, 183);
+    padding: 30px;
+}
+
+#produtos>h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px;
+}
+
+
+.sessao-produtos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sessao-produtos>div>a>img {
+    width: 270px;
+    height: 270px;
+    border-radius: 30px;
+    margin: 19px;
+
+
+}
+
+.sessao-produtos>div>a {
+    text-decoration: none;
+}
+
+
+.sessao-produtos>div>a>.titulos-dos-produtos {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    padding: 33px;
+    background-position: bottom;
+    background-image: url(IMG/img-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer>h2 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+font-weight: 400;
+}
+
+footer>ul {
+    display: flex;
+  justify-content: space-around;
+  list-style: none;
+ 
+}
+
+.intens-footer {
+    display: flex;
+    margin: 29px;
+   
+
+}
+
+.intens-footer>img {
+    height: 45px;
+    margin-left: -9%;
+
+}
+.intens-footer > p{
+   font-weight: 600;
+   margin-top: 10%;
+  
+}

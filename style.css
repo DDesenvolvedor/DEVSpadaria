@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0%;
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     padding: 17px;
@@ -12,28 +12,30 @@
     height: 15vh;
     justify-content: space-around;
     background-color: rgb(134, 101, 51);
-}  
-
-.menu > img{
-    width: 11vw;
-    height: 13vh;
-    margin-left: -5%;
 }
 
-.menu > h1{
+.menu>img {
+    width: 11vw;
+    height: 13vh;
+   
+}
+
+.menu>h1 {
     color: rgba(255, 255, 255, 0.616);
-    margin : -11%;
+    margin-top: 3%;
+    margin-left: -4%;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+
 }
 
 .menu-produtos {
-   display: flex;
-   list-style: none;
-   margin-left: 29%;
+    display: flex;
+    list-style: none;
+    margin-left: 29%;
 }
 
-.menu-produtos > ul > li > a{
+.menu-produtos>ul>li>a {
     margin-left: 30px;
     text-decoration: none;
     color: white;
@@ -42,44 +44,47 @@
     margin-right: 1rem;
 
 }
-.menu-produtos > ul > li > a:hover{
+
+.menu-produtos>ul>li>a:hover {
     opacity: 60%;
     cursor: pointer;
     transition: 0.7s;
 }
 
-.login > button {
+.login>button {
     display: flex;
     align-items: center;
     background-color: rgb(134, 101, 51);
     border: 0;
-    
+
 }
-.login > button > img{
-    height: 4vh;
+
+.login>button>img {
+    height: vh;
 }
-.login > button > p{
+
+.login>button>p {
     font-size: 14px;
     font-weight: 500;
 }
 
-.login > button:hover{
+.login>button:hover {
     opacity: 80%;
     cursor: pointer;
-} 
-
-
-#baner-da-padaria{
-    background-image: url(IMG/padaria.webp);
- width: 100%;
- height: 80vh;
- background-repeat: repeat;
- background-size: cover;
- background-position: center;
 }
 
 
-.img-div{
+#baner-da-padaria {
+    background-image: url(IMG/padaria.webp);
+    width: 100%;
+    height: 80vh;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-div {
     background-image: url(IMG/img-div.jpg);
     background-position: center;
     background-size: auto;
@@ -87,121 +92,122 @@
 }
 
 #comentarios {
-    background-color: rgb(216, 200, 164);
+    background-color: rgb(235, 229, 214);
     padding: 14px;
-    
+
 }
 
-.personage{
+.personage {
     display: flex;
 }
 
 
-.personagens{
+.personagens {
     margin-left: 8%;
     display: flex;
     list-style: none;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
 
-#comentarios > h2 {
+#comentarios>h2 {
     text-align: center;
-margin: 20px;
+    margin: 20px;
     font-weight: 550;
     font-size: 30px;
-   
+
 }
 
-#comentarios > .line1 {
-text-align: center;
-width: 40%;
-margin: 0 auto;
-margin-top: 1%;
+#comentarios>.line1 {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 1%;
 }
 
 
 
-.personagens > h3{
+.personagens>h3 {
 
     flex-direction: column;
-font-size: 25px;
-font-weight: 900;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.personagens > img{
-    width:84px ;
+.personagens>img {
+    width: 84px;
 }
-.personagens > .img-mulher{
+
+.personagens>.img-mulher {
     width: 63px;
 }
 
-.personagens  > p {
+.personagens>p {
     font-size: 22px;
     font-weight: 400;
-  margin: 20px;
+    margin: 20px;
 
 }
 
-#produtos{
+#produtos {
     background-color: rgb(229, 213, 183);
     padding: 30px;
 }
 
-#produtos > h2 {
-text-align: center;
-font-size: 30px;
-  font-weight: 400;
-  margin: 30px;
+#produtos>h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px;
 }
 
 
-.sessao-produtos{
+.sessao-produtos {
     display: flex;
     justify-content: space-evenly;
 }
 
-.sessao-produtos > div > a > img {
-width: 270px;
-height: 270px;
-border-radius: 30px;
-margin: 19px;
+.sessao-produtos>div>a>img {
+    width: 270px;
+    height: 270px;
+    border-radius: 30px;
+    margin: 19px;
 
 
 }
 
-.sessao-produtos > div > a {
+.sessao-produtos>div>a {
     text-decoration: none;
 }
 
 
-.sessao-produtos > div > a > .titulos-dos-produtos{
+.sessao-produtos>div>a>.titulos-dos-produtos {
     text-align: center;
     font-size: 22px;
     font-weight: 400;
-   color: black;
-text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
-#produtos >.mais-produtos{
+#produtos>.mais-produtos {
     display: flex;
-justify-content: center;
-text-align: center;
- margin: 10px;
-   color: rgb(0, 0, 0);
-   font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
 
 }
 
-#produtos >.mais-produtos:hover{
+#produtos>.mais-produtos:hover {
     font-size: 19px;
     opacity: 70%;
     transition: 0.9s;
 }
 
-#sobre-nos{
+#sobre-nos {
     color: white;
     background-image: url(IMG/fundo-sobre-nos.jpg);
     padding: 120px;
@@ -211,28 +217,54 @@ text-align: center;
     background-attachment: fixed;
 }
 
-#sobre-nos > h2{
+#sobre-nos>h2 {
     text-align: center;
     font-size: 39px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-#sobre-nos > p{
+#sobre-nos>p {
     font-size: 34px;
     font-weight: 350;
     margin: 45px;
 }
 
-footer{
+footer {
+    padding: 33px;
+    background-position: bottom;
     background-image: url(IMG/img-footer.jpg);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-footer > ul{
+footer>h2 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+font-weight: 400;
+}
+
+footer>ul {
     display: flex;
-} 
-
-.intens-footer{
-    
+  justify-content: space-around;
+  list-style: none;
+ 
 }
 
+.intens-footer {
+    display: flex;
+    margin: 29px;
+   
+
+}
+
+.intens-footer>img {
+    height: 45px;
+    margin-left: -9%;
+
+}
+.intens-footer > p{
+   font-weight: 600;
+   margin-top: 10%;
+  
+}
