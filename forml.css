@@ -5,7 +5,7 @@
 }
 
 
-body{
+body {
     display: flex;
     background-image: url(IMG/img-footer.jpg);
     background-size: cover;
@@ -20,21 +20,21 @@ body{
 
 
 #container-form {
-   max-width: 1280px;
-   margin: 0 auto;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
-.container>form {
+.container > form {
     opacity: 80%;
     background-color: rgb(255, 255, 255);
     max-width: 500px;
     padding: 40px;
     height: 450px;
     border-radius: 30px;
- 
+
 }
 
-.container>form>h2 {
+.container > form >  h2 {
     text-align: center;
     font-size: 30px;
     font-weight: 400;
@@ -42,12 +42,54 @@ body{
 
 }
 
-.container>form>p {
+.container >form > p {
     text-align: center;
     margin: 20px 0;
 }
 
-.input-cadastro{
+.input-cadastro {
     position: relative;
     margin: 20px 0;
 }
+
+.input-cadastro > label {
+    font-size: 23px;
+    margin-left: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 0%;
+    bottom: 5px;
+    transition: all 0.3s;
+    cursor: text;
+}
+
+.input-cadastro>.input {
+    width: 100%;
+   margin: 7px;
+    height: 24px;
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: 0;
+}
+
+.input-cadastro > .input:hover {
+    border-bottom: 3px solid black;
+}
+
+.botao > input[type=submit]{
+ padding: 15px 46px;
+ border-radius: 30px;
+  border: 0;
+  margin-top: 8%;
+  margin-left: 35%;
+  background-color: rgb(207, 107, 82);
+  font-size: 16px;
+  color: white;
+}
+
+form > .input-cadastro > .input:focus ~ label, 
+form  .input-cadastro  .input:valid ~ label {
+    transform: translateY(-25px);
+    font-size: 12px;
+    color: #000000;
+} 
