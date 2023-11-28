@@ -1,7 +1,6 @@
 * {
     padding: 0%;
     margin: 0;
-    flex-wrap: wrap;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -93,12 +92,13 @@
     background-image: url(IMG/img-div.jpg);
     background-position: center;
     background-size: auto;
-    padding: 27px;
+    padding: 2.5%;
 }
 
 #comentarios {
     background-color: rgb(235, 229, 214);
-    padding: 14px;
+  width: 100%;
+  padding: 2.5%;
 
 }
 
@@ -108,7 +108,7 @@
 
 
 .personagens {
-    margin-left: 8%;
+ text-align: center;
     display: flex;
     list-style: none;
     justify-content: space-evenly;
@@ -158,7 +158,7 @@
 
 #produtos {
     background-color: rgb(229, 213, 183);
-    padding: 30px;
+  padding: 30px;
 }
 
 #produtos>h2 {
@@ -175,8 +175,8 @@
 }
 
 .sessao-produtos>div>a>img {
-    width: 270px;
-    height: 270px;
+    width: 80%;
+    height: 70%;
     border-radius: 30px;
     margin: 19px;
 
@@ -290,14 +290,9 @@ footer>ul {
     }
 
     #comentarios>.line1 {
-        
-        width: 90%;
-       
+        width: 90%; 
     }
-    .sessao-produtos>div>a>img  {
-        margin-left: 14%;
-    }
-
+    
     #produtos>h2 {
         text-align: center;
         font-size: 26px;
@@ -306,25 +301,28 @@ footer>ul {
     }
     
   
-    .personagens {
-        margin-left: 13%;
+   
+
+    .personagens>h3{
+        
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
     }
     
 
     .personagens>p {
-        font-size: 16px;
-        text-align: center;
+        font-size: 17px;
         font-weight: 400;
         margin: 20px;
     
     }
+    .personagens>.img-mulher {
+        width: 45%;
+    }
     
 
-    .sessao-produtos>div>a>img {
-        width: 70%;
-        height: 70%;
-    }
-
+    
     #sobre-nos {
         width: 100%;
     }
