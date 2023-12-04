@@ -218,11 +218,16 @@
 #sobre-nos {
     color: white;
     background-image: url(IMG/fundo-sobre-nos.jpg);
-    padding: 120px;
+    padding: 10%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+#sobre-nos > p{
+    font-size: 1.8em;
+    margin: 13px;
 }
 
 
@@ -313,7 +318,8 @@ footer>ul {
         font-weight: 300;
         text-align: center;
     }
-    
+     
+   
 
     .personagens>p {
         font-size: 1.2em;
@@ -324,6 +330,11 @@ footer>ul {
 
     .sessao-produtos{
         margin: 14% 0;
+        display: block;
+    }
+
+    .sessao-produtos>div>a>img{
+        width: 80% ;
     }
 
     .sessao-produtos>div>a{
@@ -340,6 +351,7 @@ footer>ul {
     
 
     #sobre-nos>p {
+    
         font-size: 24px;
         font-weight: 350;
         margin: 45px;
@@ -347,7 +359,12 @@ footer>ul {
 
     #sobre-nos>h2{
         text-align: center;
+        margin-left: -23%;
     }
    
+    footer>ul{
+        display: block;
+        
+    }
     
 }
